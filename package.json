@@ -1,0 +1,25 @@
+{
+  "name": "galaxy-apis-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/postman-open-technologies/galaxy-apis-101",
+  "author": "Bello Gbadebo <gbahdeybohbello@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "1.x",
+    "email-validator": "^2.0.4",
+    "body-parser": "^1.19.0",
+    "shortid": "^2.2.15",
+    "faker": "^5.1.0"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "lowdb"
+  ]
+}
