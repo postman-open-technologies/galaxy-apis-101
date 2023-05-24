@@ -150,8 +150,7 @@ app.get("/", (req, res) => {
     });
   else
     res.send(
-      "<h1>Galaxy APIs 101</h1><p>Oh, hi! There's not much to see here - view the code instead:</p>" +
-        '<script src="https://github.com/postman-open-technologies/galaxy-apis-101" data-style="glitch"></script><div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>'
+      "<h1>Galaxy APIs 101</h1><p>Oh, hi! There's not much to see here - view <a href='https://github.com/postman-open-technologies/galaxy-apis-101'>the code</a> instead</p>"
     );
 });
 
